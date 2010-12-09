@@ -1,0 +1,45 @@
+{
+   "abstract" : "Get full exception objects from DBI",
+   "author" : [
+      "Arthur Axel \"fREW\" Schmidt <frioux+cpan@gmail.com>"
+   ],
+   "dynamic_config" : 0,
+   "generated_by" : "Dist::Zilla version 4.102345, CPAN::Meta::Converter version 2.102400",
+   "license" : [
+      "perl_5"
+   ],
+   "meta-spec" : {
+      "url" : "http://search.cpan.org/perldoc?CPAN::Meta::Spec",
+      "version" : "2"
+   },
+   "name" : "DBIx-Exceptions",
+   "prereqs" : {
+      "configure" : {
+         "requires" : {
+            "ExtUtils::MakeMaker" : "6.31"
+         }
+      },
+      "runtime" : {
+         "requires" : {
+            "Carp" : 0,
+            "DBI" : 0,
+            "Exception::Class" : 0,
+            "Moose" : 0,
+            "Test::Exception" : 0,
+            "Test::More" : "0.94",
+            "Try::Tiny" : 0,
+            "parent" : 0
+         }
+      }
+   },
+   "release_status" : "testing",
+   "resources" : {
+      "repository" : {
+         "type" : "git",
+         "url" : "git://github.com/frioux/DBIx-Exceptions.git",
+         "web" : "http://github.com/frioux/DBIx-Exceptions"
+      }
+   },
+   "version" : "0.001000_01"
+}
+

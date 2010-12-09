@@ -1,0 +1,21 @@
+NAME
+    DBIx::Exceptions - Get full exception objects from DBI
+
+VERSION
+    version 0.001000_01
+
+DEVELOPER RELEASE
+    This distribution is not ready for prime time AT ALL. I'm only releasing
+    it so that the one person using it can use it more easily. If you want
+    to help make this module more of a reality let me know. I still want to
+    finish it, I'm just not there yet.
+
+AUTHOR
+    Arthur Axel "fREW" Schmidt <frioux+cpan@gmail.com>
+
+COPYRIGHT AND LICENSE
+    This software is copyright (c) 2010 by Arthur Axel "fREW" Schmidt.
+
+    This is free software; you can redistribute it and/or modify it under
+    the same terms as the Perl 5 programming language system itself.
+
