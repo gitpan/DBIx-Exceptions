@@ -2,7 +2,7 @@ NAME
     DBIx::Exceptions - Get full exception objects from DBI
 
 VERSION
-    version 0.001000_01
+    version 0.001000_02
 
 DEVELOPER RELEASE
     This distribution is not ready for prime time AT ALL. I'm only releasing

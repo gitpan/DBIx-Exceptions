@@ -9,14 +9,16 @@ dist.ini
 lib/DBIx/Exceptions.pm
 lib/DBIx/ParseException.pm
 lib/DBIx/ParseException/MySql.pm
+lib/DBIx/ParseException/ODBC.pm
 lib/DBIx/ParseException/Pg.pm
 lib/DBIx/ParseException/SQLite.pm
 t/00-superbasic.t
 t/02-sqlite.t
 t/03-pg.t
+t/04-odbc.t
+t/ODBC.json
 t/Pg.json
 t/SQLite.json
 t/lib/DBIETester.pm
 t/lib/DBIETester/MockErrorDBH.pm
-t/release-pod-coverage.t
 t/release-pod-syntax.t

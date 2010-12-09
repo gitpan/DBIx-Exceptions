@@ -1,6 +1,6 @@
 package DBIx::Exceptions;
 BEGIN {
-  $DBIx::Exceptions::VERSION = '0.001000_01';
+  $DBIx::Exceptions::VERSION = '0.001000_02';
 }
 
 # ABSTRACT: Get full exception objects from DBI
@@ -66,7 +66,7 @@ DBIx::Exceptions - Get full exception objects from DBI
 
 =head1 VERSION
 
-version 0.001000_01
+version 0.001000_02
 
 =head1 DEVELOPER RELEASE
 
