@@ -1,6 +1,6 @@
 package DBIx::ParseException;
 BEGIN {
-  $DBIx::ParseException::VERSION = '0.001000_02';
+  $DBIx::ParseException::VERSION = '0.001000_03';
 }
 
 use strict;
@@ -63,7 +63,7 @@ DBIx::ParseException
 
 =head1 VERSION
 
-version 0.001000_02
+version 0.001000_03
 
 =head1 AUTHOR
 

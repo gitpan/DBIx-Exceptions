@@ -1,9 +1,9 @@
 package DBIx::ParseException::ODBC;
 BEGIN {
-  $DBIx::ParseException::ODBC::VERSION = '0.001000_02';
+  $DBIx::ParseException::ODBC::VERSION = '0.001000_03';
 }
 
-use Moose;
+use Moo;
 use DBIx::Exceptions;
 
 my %error_codes = (
@@ -931,7 +931,7 @@ DBIx::ParseException::ODBC
 
 =head1 VERSION
 
-version 0.001000_02
+version 0.001000_03
 
 =head1 AUTHOR
 

@@ -1,9 +1,9 @@
 package DBIx::ParseException::Pg;
 BEGIN {
-  $DBIx::ParseException::Pg::VERSION = '0.001000_02';
+  $DBIx::ParseException::Pg::VERSION = '0.001000_03';
 }
 
-use Moose;
+use Moo;
 use DBIx::Exceptions;
 with 'DBIx::ParseException';
 
@@ -3232,7 +3232,7 @@ DBIx::ParseException::Pg
 
 =head1 VERSION
 
-version 0.001000_02
+version 0.001000_03
 
 =head1 AUTHOR
 

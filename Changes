@@ -1,5 +1,9 @@
 Revision history for DBIx-Exceptions
 
+0.001000_03 2010-12-14 00:25:18 CST6CDT
+  - Fix Deps
+  - Switch from Moose to Moo
+
 0.001000_02 2010-12-08 18:28:59 CST6CDT
   - Get stuff from remote merged in
   - (I'm a moron)

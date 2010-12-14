@@ -21,15 +21,17 @@ my %WriteMakefileArgs = (
   'NAME' => 'DBIx::Exceptions',
   'PREREQ_PM' => {
     'Carp' => '0',
+    'DBD::SQLite' => '0',
     'DBI' => '0',
     'Exception::Class' => '0',
-    'Moose' => '0',
+    'JSON' => '0',
+    'Moo' => '0',
     'Test::Exception' => '0',
     'Test::More' => '0.94',
     'Try::Tiny' => '0',
     'parent' => '0'
   },
-  'VERSION' => '0.001000_02',
+  'VERSION' => '0.001000_03',
   'test' => {
     'TESTS' => 't/*.t'
   }

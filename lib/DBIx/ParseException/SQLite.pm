@@ -1,6 +1,6 @@
 package DBIx::ParseException::SQLite;
 BEGIN {
-  $DBIx::ParseException::SQLite::VERSION = '0.001000_02';
+  $DBIx::ParseException::SQLite::VERSION = '0.001000_03';
 }
 
 use DBIx::Exceptions;
@@ -60,7 +60,7 @@ DBIx::ParseException::SQLite
 
 =head1 VERSION
 
-version 0.001000_02
+version 0.001000_03
 
 =head1 AUTHOR
 
